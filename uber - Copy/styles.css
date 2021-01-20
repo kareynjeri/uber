@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    width: 100%;
+
+}
+h2{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 8px;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+    padding-top: 20%;
+    
+}
+.nav{
+    background-color: rgb(243, 200, 122);
+    color: whitesmoke;
+    padding: 49px;
+    height: 370px;
+}
+.list{
+    
+    list-style: none;
+    margin: 0px;
+    white-space: nowrap;
+}
+.list li{
+    display: inline-block;
+    width: 10%;
+    margin: 0px;
+}
+.list li a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+} 
+.list li i{
+    display: flex;
+    padding: 9px;
+    justify-content: flex-start ;
+    margin: auto;
+}
+.container{
+    background-color: orange;
+}
+
+

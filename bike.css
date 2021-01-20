@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+
+}
+.awesome-website {
+    color: red;
+}
+
+.why-code {
+    font-size: 12px; 
+}
+
+@media (min-width: 800px) {
+    .awesome-website {
+        color:blue;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width:600px) {
+
+    .why-code {
+        font-size: 50px; 
+    }
+}

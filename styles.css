@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body, *{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ .uber-header {
+   background-color: black;
+   color: white;
+ }
+
+ .our-services {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 70px;
+   width: 100%;
+   align-items: center;
+ }
+
+ .service {
+   display: flex;
+   align-items: center;
+   width: 48%;
+ }
+
+.company {
+   margin-left: 19px;
+}
+
+ .about-company {
+   display: flex;
+ }
+
+ .language {
+   display: flex;
+   margin-right: 20px;
+   border-radius: 16px;
+   width: 90px;
+   height: 35px;
+   justify-content: center;
+   align-items: center;
+ }
+ .EN-link{
+   text-decoration: none;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ .EN-icon {
+    margin-right: 15px;
+ }
+
+ .language:hover {
+   background-color: rgb(41, 40, 40);
+ }
+
+.product {
+   text-decoration: none;
+   color: white;   
+   font-size: 14px;
+   font-weight: bold;
+}
+
+
+.login-link {
+   text-decoration: none;
+   color: white;
+   font-size: 14px;
+   font-weight: bold; 
+}
+
+.sign-up {
+   margin-right: 20px;
+ 
+}
+
+.sign-uplink {
+   text-decoration: none;
+   color:black;
+   margin-left: 8px;
+   font-size: 14px;
+   font-weight: bold;
+   border: solid 1px white;
+   border-radius: 27px;
+   padding: 8px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.sign-uplink:hover{
+   background-color: whitesmoke;
+}
+
+ .section{
+   padding: 55px 55px 0;
+   background-image: url('https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1346,h_855/v1578357180/assets/69/908bc0-7167-40d0-b046-af52170801f5/original/Product-Masthead-Desktop_2.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+ }
+ 
+ .nav{
+   background-color: rgb(253, 252, 252);
+   height: 110px;
+   border-bottom: 0.8px solid rgb(218, 213, 213);    
+ }
+
+ .list {
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   justify-content: space-between;
+   padding: 0 30px;
+   height: 100%;
+ }
+
+ .item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 11.5%;  
+   cursor: pointer;  
+ }
+
+ .item > a {
+   text-decoration: none;
+   margin-top: 20px;
+   color: black;
+ }
+
+ .item:hover {
+   border-bottom: solid 4px #000;
+ }
+
+ .container {
+   display: flex; 
+   height: 570px;
+ }
+
+ .box {
+   background-color: white;
+   height: 400px;
+   width: 505px;
+   padding: 40px;
+ }
+
+.img {
+   margin: 20px 40px;
+   height: 540px;
+   width: 430px;
+ }
+
+ .h1 {
+   font-weight: bolder;
+   margin-top: 15px;
+   font-size: 45px;
+ }
+
+ .h2 {
+   font-size: 20px;
+   margin-top: 18px;
+ }
+
+ .button {
+   background-color: black;
+   color: white;
+   height: 40px;
+   width: 170px;
+   padding: 25px;
+   margin-top: 45px;
+   border: 2px;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font: bold;
+   font-size: 17px;
+ }
+
+ .link {
+   margin-bottom: 80px;
+   padding: 8px;
+   width: fit-content;
+   border-bottom: solid 1px rgb(240, 234, 234);
+ }
+
+ .link:hover{
+   border-bottom: solid 1px rgb(90, 89, 89);
+   width: fit-content;
+ }
+
+ .link> a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .part2 {
+    height: 510px;
+    background-size: cover;
+    background-image: url('https://www.uber-assets.com/image/upload/v1556927537/assets/e4/ade93c-0b7b-4990-bda4-afef96793277/original/Modalities_banner_home.jpg');
+ }
+
+ .city {
+   font-weight: 700;
+   font-size: 37px;
+   padding-left: 50px;
+   padding-top: 65px;
+   padding-bottom: 18px;
+}
+
+ .view { 
+    margin-top: 28px;
+    margin-left: 50px;
+    padding: 4px;
+    border-bottom: solid 0.5px rgb(207, 205, 205);
+    width: fit-content; 
+    font-weight: 100;
+}
+
+ .view> a {
+   text-decoration: none;
+   color: black;
+}
+
+ .view:hover{
+   border-bottom: solid 1px;
+}
+
+.container2{
+   display: flex;
+   background-image: url('https://www.uber-assets.com/image/upload/v1556927537/assets/e4/ade93c-0b7b-4990-bda4-afef96793277/original/Modalities_banner_home.jpg');
+}
+
+.part3 {
+   height: 100%;
+   width: 100%;
+}
+
+.headings {
+   display: flex;
+   flex-direction: column;
+   padding-left: 70px;
+}
+
+.h1business {
+   font-size: 35px;
+   margin-top: 65px;
+   padding-bottom: 23px;
+   font-weight: bolder; 
+}
+
+.h2power {
+    padding-bottom: 34px; 
+    font-size: 15px;
+}
+
+.cuboid {
+   display: flex;
+   justify-content: space-between;
+} 
+
+.card1 {
+   width: 32.34%;
+   align-items: center;
+   margin-left: 55px
+}
+
+.employee{
+   width: 328px;
+   height: 228px;
+}
+
+.work {
+   padding-top: 28px;
+   padding-bottom: 20px;
+}
+
+.p {
+   padding-bottom: 43px;
+   height: 80px;
+}
+
+.learn> a {
+   padding: 30px;
+
+}
+
+.learn:hover {
+   border-bottom: solid 1px black;
+} 
+
+.learn {
+   width: fit-content;
+   border-bottom: solid 1px lightgrey;
+   text-decoration: none;
+   color: black;
+   padding: 7px;
+}
+   
+.card2 {
+   width: 32.34%;
+   justify-content: center;
+
+}
+
+.workimg {
+   width: 328px;
+   height: 228px;
+}
+
+.rides {
+   padding-top: 28px;
+   padding-bottom: 20px;
+}
+
+.ptrips {
+   padding-bottom: 43px;
+   font-size: 17px;
+   height: 80px;
+}
+
+.learn2 {
+   padding: 7px;
+   width: fit-content;
+   border-bottom: solid 1px lightgrey;
+   text-decoration: none;
+   color: black;
+   
+}
+
+.learn2:hover {
+   border-bottom: solid 1px black;
+}
+
+.card3 {
+   width: 32.34%;
+   object-fit: cover;
+
+}
+.coordinator {
+   width: 337px;
+   height: 228px;
+}
+
+.courtesy {
+   padding-top: 28px;
+   padding-bottom: 20px; 
+}
+
+.paims {
+   padding-bottom: 43px;
+   font-size: 17px;
+   height: 80px;
+   
+}
+
+.learn3 {
+   text-decoration: none;
+   color: black;
+   border-bottom: solid 1px lightgrey;
+   padding: 7px;
+}
+
+.learn3:hover {
+   border-bottom: solid 1px black;
+}
+
+.learn2>a {
+   padding-top: 40px; 
+   color: black;
+} 
+
+.part4 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-top: 132px;
+}
+
+.heading {
+   display: flex;
+   flex-direction: column;
+   width: 390px;
+   margin-left:50px;
+}
+
+.headingone {
+   padding-bottom: 30px;
+   font-size: 35px;
+   font-weight: bolder;
+}
+
+.p4 {
+   padding-bottom: 40px;
+   font-size: 18px;
+}
+
+.link1 {
+   text-decoration: none;
+   color: black;
+   border-bottom: solid 1px lightgrey;
+   padding: 7px;
+   width: fit-content;
+   margin-bottom: 15px;
+}
+
+.link1:hover {
+   border-bottom: solid 1px black;
+}
+
+.link2 {
+   text-decoration: none;
+   color: black;
+   border-bottom: solid 1px lightgrey;
+   padding: 7px;
+   width: fit-content;
+   margin-bottom: 15px;
+}
+
+.link2:hover {
+   border-bottom: solid 1px black;
+}
+
+.image4 {
+   width: 700.167px;
+   height: 320.111px;
+   padding-left: 90px;
+   padding-right: 70px;
+}
+
+ .container4 {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .part5 {
+   padding-top: 160px;  
+ }
+
+ .spanicon {
+   font-size: 25px;
+ }
+
+ .kadi1 {
+   width: 299px;
+   height: 220px;
+   margin-left: 50px;
+ }
+
+ .kadi2{
+   width: 299px;
+   height: 220px;
+ }
+
+ .kadi3 {
+   width: 299px;
+   height: 220px;
+   margin-right: 80px;
+ }
+ 
+ .h34{
+   padding-top: 15px;
+   padding-bottom: 18px;
+ }
+
+ .p5{
+   padding-bottom: 30px;
+   height: 70px;
+   font-weight: 200;
+ }
+
+ .part6 {
+   height: 200px;
+ }
+
+ .signing {
+   display: flex;
+   justify-content: space-between;
+
+ }
+ .drive {
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+   font-size: 35px;
+ }
+
+ .sign1 {
+   border-bottom: solid 1px black;
+   padding: 45px; 
+   width: max-content;
+ }
+ 
+ .sign2 {
+   display: flex;
+   transition: 0.3s;
+   opacity: 1;
+ }
+
+ .sign2:hover {
+   opacity: 0.7;
+ }
+
+ .plink {
+    margin: 0px;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: 7px;
+ }
+
+ .pa {
+   width: 450px;
+ }
+
+ .part7 {
+   background-color: black;
+   color: white;
+   height: 735px;
+   padding: 25px 50px;
+ }
+
+ .uber2 {
+   display: flex;
+   flex-direction: column;
+   height: 200px; 
+ }
+ 
+ .color {
+   margin-top: 60px;
+   text-decoration: none;
+   color: white;
+   padding-bottom: 35px;
+   font-size: 25px;
+ }
+
+ .color2 {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+ }
+
+ .container7 {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+ }
+
+ .foot {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   width: 24%;
+ }
+
+ .icons {
+   display: flex;
+   flex-direction: row;
+ }
+
+ .h{
+    font-size: 17.5px;
+    padding-bottom: 20px;
+ }
+
+ .a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 14px;
+ }
+
+ .socialmediaicons {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between; 
+ }
+
+ .division1 {
+    display: flex;
+
+ }
+  
+ .division2 {
+    display: flex;
+
+ }
+
+ .hoverableicon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hoverableicon:hover {
+    background-color: rgb(39, 38, 38);
+ }
+
+ .hoverableicon1 {
+    font-size: 10px;
+    width:100px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+ }
+
+ .hoverableicon1:hover {
+    background-color:rgb(39, 38, 38);
+ }
+ .hoverableicon2 {
+   font-size: 10px;
+   width:110px;
+   height:40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hoverableicon2:hover {
+   background-color:rgb(39, 38, 38);
+}
+
+.iconheading {
+    padding: 10px;
+}
+
+.store-icons {
+   display: flex;
+   align-items: center;
+}
+
+.store-icon:first-child {
+   margin-right: 20px;
+}
+
+.store-icon {
+   width: 115px;
+   height: 12px;
+}
+
+ .companypolicy {
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-between;
+ }
+
+.copyright {
+   margin-left: 5px;
+   font-size: 12px;
+   color: rgb(165, 164, 164);
+}
+
+.customer-info {
+   display: flex;
+   justify-content: space-between;  
+}
+
+.customer-infolinks {
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+   font-size: 12px;
+   color: rgb(165, 164, 164);
+}
+
+.rounded-button {
+   display: flex;
+   width: fit-content;
+   padding: 10px 15px;
+   border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.rounded-button:hover {
+   cursor: pointer;
+   background: rgb(39, 38, 38);
+}
+
+.brand {
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #fff;
+}
+
+.ml-10 {
+   margin-left: 10px;
+}
+
+.mr-10 {
+   margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+ 
